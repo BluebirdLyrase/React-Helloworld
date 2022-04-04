@@ -7,7 +7,15 @@ function ArrowFunction(){
     console.log(arrowParam('val1'));
     console.log(arrowParams('val1','val2'));
     console.log(arrowParenthese('val1'));
-    return (<div></div>)
+    return (
+        <ul>
+        <li>{normal()}</li>
+        <li>{arrow()}</li>
+        <li>{arrowReturn()}</li>
+        <li>{arrowParam('val1')}</li>
+        <li>{arrowParams('val1','val2')}</li>
+        <li>{arrowParenthese('val1')}</li>
+        </ul>)
 }
 
 //Function
