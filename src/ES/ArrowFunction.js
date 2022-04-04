@@ -1,23 +1,32 @@
 import '../App.css';
 
-
-//Function
-normal = function() {
-    return "This text come from a normal function!";
+function ArrowFunction(){
+    console.log(normal());
+    console.log(arrow());
+    console.log(arrowReturn());
+    console.log(arrowParam('val1'));
+    console.log(arrowParams('val1','val2'));
+    console.log(arrowParenthese('val1'));
+    return (<div></div>)
 }
 
-arrow = () => {
+//Function
+const normal = function() {
+    return "This text come from a regular function!";
+}
+
+const arrow = () => {
     return "This text come from an arrow function!"; 
 }
 
-arrowReturn = () => "This text come from an arrow function that return value by default";
+const arrowReturn = () => "This text cfdome from an arrow function that return value by default";
 
-arrowParam = (val) => "this text come from an arrow function with a parameter ( " + val + " )";
+const arrowParam = (val) => "this text come from an arrow function with a parameter ( " + val + " )";
 
-arrowParams = (val1,val2) => "this text come from an arrow function with multiple parameters ( " + val1 + ", " + val2 + " )";
+const arrowParams = (val1,val2) => "this text come from an arrow function with multiple parameters ( " + val1 + ", " + val2 + " )";
 
-arrowParenthese = val => "this text come from a parenthese function with only a single parameter ( " + val +" )";
+const arrowParenthese = val => "this text come from a parenthese function with only a single parameter ( " + val +" )";
 
 //This
 
-
+export default ArrowFunction;

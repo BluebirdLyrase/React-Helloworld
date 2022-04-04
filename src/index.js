@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HelloWorld from './HelloWorld';
 import ClassExample from './ES/ClassExample';
+import ArrowFunction from './ES/ArrowFunction';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <HelloWorld />
     <ClassExample />
+    <ArrowFunction />
   </React.StrictMode>,
   document.getElementById('root')
 );
