@@ -5,6 +5,8 @@ import HelloWorld from './HelloWorld';
 import ClassExample from './ES/ClassExample';
 import ArrowFunction from './ES/ArrowFunction';
 import ArrayMethod from './ES/ArrayMethod';
+import Garage from './ES/Props';
+import Football from './ES/Event';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,6 +18,10 @@ root.render(
     <ArrowFunction />
     <h2>Array Method</h2>
     <ArrayMethod />
+    <h2>Props</h2>
+    <Garage />
+    <h2>Event</h2>
+    <Football />
   </React.StrictMode> 
 );
 
