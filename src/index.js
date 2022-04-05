@@ -7,6 +7,7 @@ import ArrowFunction from './ES/ArrowFunction';
 import ArrayMethod from './ES/ArrayMethod';
 import Garage from './ES/Props';
 import Football from './ES/Event';
+import Goal from './ES/Conditionals';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -22,6 +23,9 @@ root.render(
     <Garage />
     <h2>Event</h2>
     <Football />
+    <h2>Conditionals</h2>
+    <Goal isGoal={false}/>
+    <Goal isGoal={true}/>
   </React.StrictMode> 
 );
 
